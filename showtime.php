@@ -291,7 +291,7 @@ $slideshowOptions->RegisterAdministrationPage(	$slideshowOptions->PARENT_MENU_ME
 											 	'showtime.png' );
 
 add_action( 'init', array($slideshowOptions, '_AddAdministrationAjax' ) );
-add_action( 'admin_head' , array($slideshowOptions, 'AddHoverFunctionality')	);
+//add_action( 'admin_head' , array($slideshowOptions, 'AddHoverFunctionality')	);
 add_action( 'wp_head', array($slideshow, 'addToHeader'), 1);
 
 add_shortcode('gallery', array($slideshow, 'wp_gallery_st_shortcut'));
