@@ -45,7 +45,7 @@ class st_options extends adminframework {
 	
 	function _pluginInfo() {
 		_e( '<p>The showTime gallery plugin is free for personal and commercial use.</p>', TXTDOMAIN );
-		_e( '<p>For the latest information, comments and feedback, please visit <a href="http://youtag.lu/showtime/" target="_blank">www.youtag.lu/showtime</a></p>', TXTDOMAIN );
+		_e( '<p>For the latest information, comments and feedback, please visit <a href="http://youtag.lu/showtime-wp-plugin/" target="_blank">www.youtag.lu/showtime</a></p>', TXTDOMAIN );
 		_e( '<p>If you need a customized version of <i>ShowTime</i>, please drop a note on my <a href="http://youtag.lu/contact/" target="_blank">contact page</a> and I\'ll get back to you.</p>', TXTDOMAIN );
 	}
 	
@@ -174,9 +174,9 @@ $slideshow = new wordpress_showtime_slideshow();
 
 
 $slideshowOptions->Initialize(	'ShowTime Gallery Slideshow',
-								'0.1',
+								'0.5',
+								'showtime-slideshow',
 								'showtime',
-								'slideshow',
 								'http://youtag.lu/' );
 
 $slideshowOptions->AddOption(	$slideshowOptions->OPTION_TYPE_TEXTBOX,
