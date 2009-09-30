@@ -4,8 +4,8 @@ Contributors: youtag
 Donate link: http://www.youtag.lu/
 Tags: wordpress, showtime, slideshow, gallery, animation, ken, burns, flash, images, picture, plugin, FX, photo, show, presentation
 Requires at least: 2.7
-Tested up to: 2.8.1
-Stable tag: 0.5
+Tested up to: 2.8.4
+Stable tag: 0.6
 
 This plugin transforms all images within a post/page into an animated slideshow. 
 
@@ -25,6 +25,9 @@ Released
 
 = 0.5 =
 Several minor Bug Fixes
+
+= 0.6 =
+Fixed bug with folder name; Hover Func.
 
 
 
