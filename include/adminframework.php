@@ -436,6 +436,9 @@ class adminframework
 	echo( $optionMarkup );
 	}
 	
+	function AddHoverFunctionality() {
+	}
+	
 
 }
 ?>
