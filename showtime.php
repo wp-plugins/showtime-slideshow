@@ -3,7 +3,7 @@
 Plugin Name: ShowTime Slideshow
 Plugin URI: http://youtag.lu/showtime-wp-plugin/
 Description:<strong>Displays all images attached to a post/page as animated slideshow. <a href="http://www.youtag.lu/showtime-wordpress-plugin-demo" target="_blank">demo</a></strong> * No setup necessary * Simply upload images in WordPress as usual * Future-proof (using wp functions where possible, no database tables added) * Clean transition effects including <strong>Ken Burns <em>pan & zoom</em> / blur / slide / flash / flip</strong> * Full Screen mode * ShowTime requires Adobe Flash. If Flash is not installed on the client system, the default WordPress gallery is displayed. <a href="./upload.php?page=showtime">Change default Options</a>
-Version: 1.3
+Version: 1.3.1
 Author: Paul Schroeder
 Author URI: http://youtag.lu/
 
