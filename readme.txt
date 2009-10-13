@@ -5,7 +5,7 @@ Donate link: http://www.youtag.lu/showtime-wp-plugin/
 Tags: wordpress, showtime, slideshow, gallery, animation, ken, burns, adobe, flash, images, photo, photos, picture, pictures, plugin, special, FX, slide, flip, blur, zoom, animation, photo, show, presentation
 Requires at least: 2.7
 Tested up to: 2.8.4
-Stable tag: 1.3
+Stable tag: 1.3.1
 
 This plugin displays all images attached to a post/page as an animated slideshow. 
 
@@ -50,6 +50,9 @@ Many options added:
 * Enhanced XML structure
 * Improved aesthetics and cursor behaviour
 * Improved Random generator
+
+= 1.3.1 =
+* Fixed shortcode attribute bug from 1.3 and other smaller issues
 
 
 == FAQ ==
