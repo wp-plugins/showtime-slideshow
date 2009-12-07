@@ -75,7 +75,7 @@ Flash Player 10 is now required !!!
 
 
 = 1.6 =
-This version will change the aspect of your slide show captions. Please check details before upgrading.
+* This version will change the aspect of your slide show captions. Please check details before upgrading.
 * Added support for custom cursors
 * Fixed bug with random images
 * Caption styling fully customizable through CSS
@@ -87,33 +87,43 @@ This version will change the aspect of your slide show captions. Please check de
 
 = How do I add a slideshow into my post/page ? =
 
-In the body of the post/page, type <code>[slideshow]</code>
+In the body of the post/page, type <code>[showtime]</code> or <code>[st]</code>
 
 = How do I get pictures into my slideshow ? =
 
-While editing your post, click <strong>Add an image</strong> and select the pictures to upload.
-That's all ! ShowTime automatically retrieves all images attached to a post.
+ShowTime is using the WordPress built-in media library.
+In the WordPress post editor, click <strong>Add an image</strong> and select the pictures to upload. This will "attach" the image to the current post. ShowTime automatically retrieves all images attached to a page or post.
 
- To customize, go to your admin, Media > ShowTime Slideshow
+= Can I link an image to a custom URL ? =
+
+1. Go to Media > Library
+2. Find the image you wish to add a link to and hit <strong>edit</strong>
+3. Enter the URL in the description field and hit <strong>Update Media</strong>
+4. In the post enter the shortcode <code>[st controls=1004 link=description]</code>
+
+= Where can I modify default settings for this plugin ?
+
+In your WP admin, select Media > ShowTime Slideshow
 
 = What is the function to use in my templates ? =
 
-<code>show_showtime(width=132|height=123|transition=blur|É)</code>
+<code>show_showtime("width=132|height=123|transition=blur|...")</code>
 
 = Can I use the function outside of my post/page ? =
 
-Sure! You can add the slideshow in the sidebar / header / footer É
+Sure! You can add the slideshow in the sidebar / header / footer ...
 
 = Can I set an ID of a non-published/hidden post ? =
 
 Sure! To find out the ID of a post, go to admin : Posts > Edit
 Look at the status bar while you mouse over the title of the post in the list.
-code example: <code>show_showtime(id=123)</code>
+code example: <code>show_showtime("id=123")</code>
 
 = How do I get the URL to my Picasa / Flickr Photo album RSS feed ? =
 
 Go to your account, open album find a RSS link and copy link location.
-shortcode: [showtime flickr=feedURL]
+shortcodes: [st flickr=feedURL] [st picasa=feedURL]
+
 
 
 == OTHER ==

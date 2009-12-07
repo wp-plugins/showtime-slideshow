@@ -31,7 +31,7 @@ class wordpress_showtime_slideshow {
 		$transitionease = get_option( 'st_easeFunc' ).get_option( 'st_ease' );
 		$rotationtime = get_option( 'st_rotatetime' );
 		
-		//$showcontrols = get_option( 'st_showcontrols' );
+		$showcontrols = get_option( 'st_showcontrols' );
 		$controls = get_option( 'st_showcontrols' ) == 'on' ? get_option( 'st_controls' ) : '0';
 		$fullscreen = get_option( 'st_fullscreen' );
 		$showtext = get_option( 'st_showtext' );
