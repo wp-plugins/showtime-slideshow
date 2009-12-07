@@ -1,0 +1,40 @@
+<slideshow generator="showTime WP plugin">
+
+<options shuffle="off" textbgcolor="#000000" showtext="off" showalt="on" transition="flip" transitionease="Circ.EaseOut" transitiontime="1" scale="noscale" controls="1234" target="_self"/>
+
+<css>
+p {
+	marginLeft: 15;
+	marginRight: 15;
+	valign: bottom;
+	textAlign: left;
+	color: #ffffff;
+	font-family: _sans, Helvetica, Arial;
+	fontWeight:normal;
+	kerning: true;
+	leading: 0;
+}
+.description {
+	fontSize: 17;
+}
+h1 {
+	fontSize: 28;
+}
+.spacer {
+	fontSize: 12;
+}
+.cursor {color: #ffffff;}
+.circle {color: #ffffff;}
+.shadow {color: #000000; strength: 0; blur: 2;}
+</css>
+
+
+<img src="http://localhost:8888/youtagdesign/wp-content/uploads/2009/09/IMG_7228_2-348x465.jpg" hdsrc="http://localhost:8888/youtagdesign/wp-content/uploads/2009/09/IMG_7228_2-517x690.jpg" title="Caution" caption="Jumping into the water using your car is not recommended!" href="http://www.google.com/"/>
+<img src="http://localhost:8888/youtagdesign/wp-content/uploads/2009/09/IMG_7180-620x465.jpg" hdsrc="http://localhost:8888/youtagdesign/wp-content/uploads/2009/09/IMG_7180-920x690.jpg" title="Where do you want to go today?" caption="To the sunny beach or to the impressive cliffs. What a dilemma!" href=""/>
+<img src="http://localhost:8888/youtagdesign/wp-content/uploads/2009/09/IMG_7175-1-620x465.jpg" hdsrc="http://localhost:8888/youtagdesign/wp-content/uploads/2009/09/IMG_7175-1-920x690.jpg" title="Stony beach" caption="Surrounded by olive trees, foxes and corals" href=""/>
+<img src="http://localhost:8888/youtagdesign/wp-content/uploads/2009/09/IMG_7153-1-620x465.jpg" hdsrc="http://localhost:8888/youtagdesign/wp-content/uploads/2009/09/IMG_7153-1-920x690.jpg" title="Kids" caption="playing beach-football" href=""/>
+<img src="http://localhost:8888/youtagdesign/wp-content/uploads/2009/09/IMG_7152-1-620x465.jpg" hdsrc="http://localhost:8888/youtagdesign/wp-content/uploads/2009/09/IMG_7152-1-920x690.jpg" title="Boring beach" caption="" href=""/>
+<img src="http://localhost:8888/youtagdesign/wp-content/uploads/2009/09/IMG_7130-620x465.jpg" hdsrc="http://localhost:8888/youtagdesign/wp-content/uploads/2009/09/IMG_7130-920x690.jpg" title="Small Boat" caption="in the water" href=""/>
+
+
+</slideshow>
